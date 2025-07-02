@@ -659,7 +659,7 @@ background-color: #31d0aa;
 }
 
 .text-form-input {
-     margin-bottom: 16px;
+     margin-bottom: 24px;
 }
 .textarea{
     width: 100%;
@@ -675,6 +675,7 @@ background-color: #31d0aa;
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #4D5AE5;
 }
 
 .textarea:focus{
