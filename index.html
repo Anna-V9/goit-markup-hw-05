@@ -459,15 +459,18 @@
                </div>
                 </div>
                 <div class="text-form-input">
-                <label class="form-label">Comment</label>
-                <textarea class="textarea" name="comment" placeholder="Text input"></textarea>
+                <label class="form-label" for="user-comment">Comment</label>
+                <textarea class="textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
                 </div>
 
-                <div class="form-field">
-                    <input class="input-checkbox" type="checkbox" value="true" id="user-privacy">
-      <label class="form-label-privacy" for="user-privacy">I accept the terms and conditions of the
-              
-        <a class="link-privacy-modal" href="#">Privacy Policy</a></label>
+                <div class="text-form-input">
+                    <input class="input-checkbox visually-hidden" type="checkbox" name="user-privacy" value="true" id="user-privacy">
+      <label class="form-label-privacy" for="user-privacy">
+              <span class="span-icon-checkbox">
+                <svg class="icon-accept" width="10" height="8">
+                    <use href="./images/checkbox.svg#icon-Checkbox"></use></svg></span>
+                    I accept the terms and conditions of the
+                    <a class="link-privacy-modal" href="#">Privacy Policy</a></label>
               
     </div>
     <button class="order-button form-send-btn">Send</button>
