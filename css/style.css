@@ -501,6 +501,10 @@ background-color: #31d0aa;
 .footer-social-link-svg{
     fill: #F4F4FD;
 }
+
+.box-subscribe {
+    margin-left: 80px;
+}
 .page-text.form-title {
     margin-bottom: 16px;
   font-weight: 500;
@@ -541,7 +545,6 @@ background-color: #31d0aa;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 16px;
-  
 
 }
 
