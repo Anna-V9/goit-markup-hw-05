@@ -706,11 +706,14 @@ border-color: #4D5AE5;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #4D5AE5;
+  
 }
 
-.form-input:focus{
+.form-input:focus + .modal-icon{
     fill: #4D5AE5;
+}
+.text-form-input-checkbox{
+    margin-bottom: 24px;
 }
 .span-icon-checkbox {
   width: 16px;
