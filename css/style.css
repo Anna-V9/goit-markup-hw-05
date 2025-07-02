@@ -551,6 +551,11 @@ background-color: #31d0aa;
   background-color: #4d5ae5;
   color: #fff;
   border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .icon-subscribe {
